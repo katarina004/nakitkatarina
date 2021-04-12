@@ -1,0 +1,81 @@
+body {
+  background-color: BlanchedAlmond;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(221, 8, 54);
+  text-align: center;
+  text-shadow: 2px 2px 5px CornflowerBlue;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  font-style: italic;
+  text-shadow: 1px 1px;
+}
+
+ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+ul.c {
+  list-style-type: square;
+}
+
+ul li {
+color: black;
+text-align: left;
+font-size: 20px;
+}
+
+ol {
+  list-style-type: lower-alpha;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(86, 94, 87);
+  color: white;
+}
+
+#youtube {border-radius: 20px; with: 450px; height: 320px;}
